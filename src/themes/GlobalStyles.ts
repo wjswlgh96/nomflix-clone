@@ -21,7 +21,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,8 +46,11 @@ table {
 
 body {
     font-family: "Source Code Pro", serif;
+	font-weight: 400;
+	box-sizing: border-box;
 }
 a {
-    list-style: none;
+    text-decoration: none;
+	color: inherit;
 }
 `;
